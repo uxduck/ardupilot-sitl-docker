@@ -11,7 +11,7 @@ Run [Ardupilot (software-in-the-loop simulator) SITL](https://ardupilot.org/dev/
   - [x86_64 emulation (rosetta) seems slower than this](https://github.com/ArduPilot/ardupilot/issues/19588#issuecomment-2489820026)
   - macOS might drop rosetta in the future (they [did it for the first rosetta](https://en.wikipedia.org/wiki/Rosetta_(software)))
 - Isolated environment: Even if you use Debian or Ubuntu, this will avoid you running a 500 line script to install dependencies
-- Latest Ardupilot version (Tracker-4.5.7)
+- Latest Ardupilot version (Plane-4.6.0)
 - Latest python (3.13)
 
 Feedback wanted! Create an issue if you need help or can't get it working.
@@ -42,7 +42,7 @@ docker run -it orthuk/ardupilot-sitl-debian ./Tools/autotest/sim_vehicle.py -v A
 - Change into the new directory: run `cd ardupilot-sitl-docker`
 - Either:
   - Download and run the images I publish: `docker-compose up -d [remote_debian | remote_ubuntu]`
-  - Build a local image: `ARDUPILOT_VERSION=$version docker-compose up -d [local_debian | local_ubuntu]`, where you should use $version from https://github.com/ArduPilot/ardupilot/releases, e.g. `ARDUPILOT_VERSION=Tracker-4.5.7`
+  - Build a local image: `ARDUPILOT_VERSION=$version docker-compose up -d [local_debian | local_ubuntu]`, where you should use $version from https://github.com/ArduPilot/ardupilot/releases, e.g. `ARDUPILOT_VERSION=Tracker-4.6.0`
   - Note: the square bracket means you have to choose! e.g. `docker-compose up -d remote_debian`
 
 ## Usage

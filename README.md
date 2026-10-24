@@ -1,6 +1,6 @@
 # Ardupilot SITL docker
 
-New: There's a newer, easier way to run ArduPilot simulations. You can run it fully in the browser if you use [UXDuck web](https://app.uxduck.com/). Or if you want to forward simulations to other GCS's, you can launch it from UXDuck Desktop app. 
+New: There's a newer, easier way to run ArduPilot simulations. You can run it fully in the browser if you use [UXDuck web](https://app.uxduck.com/). Or if you want to forward simulations to other GCS's, you can launch it from [UXDuck Desktop app](https://uxduck.com/download). 
 
 [UXDuck](https://uxduck.com/) is the modern, intuitive GCS software for planes, copters, rovers, boats, submarines and airships. 
 
